@@ -1,3 +1,4 @@
+import random
 from state import State
 
 def increase(variable, amount=1):
@@ -26,6 +27,7 @@ def parse_board_string(string):
     return (size, moves)
 
 alpha = 0.1;
+gamma = 0.9
 stateMatrix = [] #store all explored states
 
 '''
@@ -36,30 +38,28 @@ Update Q-value of a given state
 @param nextState - the state on which the robot will land
 '''
 def updateQ(State s, int action, State nextState):
-    if (!s.isIsFinalState()):
-        #the FORMULA of Q-learning updates
-        #value = (1 - alpha) * s.actionsQValue.get(action) + alpha * (nextState.getReward(s) + getMaxQ(nextState));
-        value = (1 - alpha) * s.get_Qvalue(action) + alpha * (nextState.getReward(s) + getMaxQ(nextState));
+    #the FORMULA of Q-learning updates
+    value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward(s) + gamma * getMaxQ(nextState));
 
-        if (action == State.left):
-            s.actionsQValue.put(State.left, value)
-            if (!s.exploredActions.contains(State.left)):
-                s.exploredActions.add(State.left)
-            
-        if (action == State.right):
-            s.actionsQValue.put(State.right, value)
-            if (!s.exploredActions.contains(State.right)):
-                s.exploredActions.add(State.right)
-            
-        if (action == State.up):
-            s.actionsQValue.put(State.up, value)
-            if (!s.exploredActions.contains(State.up)):
-                s.exploredActions.add(State.up)
-            
-        if (action == State.down):
-            s.actionsQValue.put(State.down, value)
-            if (!s.exploredActions.contains(State.down)):
-                s.exploredActions.add(State.down)
+    if (action == State.left):
+        s.add_actionQValue(State.left, value)
+        if (State.left not in s.get_exploredActions()):
+            s.add_exploredAction(State.left)
+        
+    elif (action == State.right):
+        s.add_actionQValue(State.right, value)
+        if (State.right not in s.get_exploredActions()):
+            s.add_exploredAction(State.right)
+        
+    elif (action == State.up):
+        s.add_actionQValue(State.up, value)
+        if (State.up not in s.get_exploredActions()):
+            s.add_exploredAction(State.up)
+        
+    elif (action == State.down):
+        s.add_actionQValue(State.down, value)
+        if (State.up not in s.get_exploredActions()):
+            s.add_exploredAction(State.up)
 
 '''
 Get maximum Q-value of a given state
@@ -67,26 +67,11 @@ Get maximum Q-value of a given state
 @param s - the state for which max Q-value will be found
 '''
 def getMaxQ(State s):
-    maxQ = Math.max(s.actionsQValue.get(State.left), 
-                Math.max(s.actionsQValue.get(State.right), 
-                Math.max(s.actionsQValue.get(State.up), s.actionsQValue.get(State.down))));
-    return maxQ;
+    maxQ = max(s.get_actionQvalue(State.left), 
+                max(s.get_actionQvalue(State.right), 
+                max(s.get_actionQvalue(State.up), s.get_actionQvalue(State.down))));
+    return maxQ
     
-
-'''
-Get policy of a given state
-
-@param s - the state for which policy will be found
-@param maxQ - corresponding maximum Q value
-'''
-def getPolicy(State s, double maxQ):
-    action = 1;
-    if (!s.isIsFinalState()) 
-        for (Entry<Integer, Double> entry : s.actionsQValue.entrySet()) 
-            if (Objects.equals(maxQ, entry.getValue())) 
-                action = entry.getKey();
-    
-    return action;
     
 '''
 Get action for a given state
@@ -96,21 +81,18 @@ Get action for a given state
 '''
 def getAction(State s):
     int action = 0;
-    ArrayList<Integer> possibleActions = new ArrayList();
+    possibleActions = []
 
-    for (int i = 1; i <= 4; i++) 
-        if (!s.exploredActions.contains(i)) 
-            possibleActions.add(i);
-        
+    for i in range(1,4):
+        if (i is not in s.get_exploredActions()):
+            possibleActions.append(i)
     
-    if (!possibleActions.isEmpty()) 
-        rnd = new Random().nextInt(possibleActions.size());
-        action = possibleActions.get(rnd);
-     else 
-        action = getPolicy(s);
-    
+    if (len(possibleActions) > 0):
+        action = random.choice(possibleActions)
+    else:
+        action = getPolicy(s)
 
-    return action;
+    return action
 
     
 '''
@@ -120,39 +102,34 @@ Get policy of a given state
 
 '''
 def getPolicy(State s):
-    action = 0;
-    double max = getMaxQ(s);
-    if (max == s.actionsQValue.get(State.left)) 
+    action = State.left
+    maxV = getMaxQ(s)
 
-        action = State.left;
-     else if (max == s.actionsQValue.get(State.right)) 
-
-        action = State.right;
-     else if (max == s.actionsQValue.get(State.up)) 
-
-        action = State.up;
-     else 
-
+    if (maxV == s.get_actionQvalue(State.left)):
+        action = State.left
+    elif (maxV == s.get_actionQvalue(State.right)):
+        action = State.right
+    elif (maxV == s.get_actionQvalue(State.up)):
+        action = State.up
+    else:
         action = State.down;
     
-    return action;
+    return action
     
 '''
-Print Q values of states
+Get policy of a given state
+
+@param s - the state for which policy will be found
+@param maxQ - corresponding maximum Q value
 '''
-def printQ():
-    for (int v = 0; v < Main.windowWidth; v = v + Robot.rectWidth) 
-        for (int j = 0; j < Main.windowHeight; j = j + Robot.rectHeight) 
-            State state = ReInforcementLearning.stateMatrix[v][j];
-            if (state != null) 
-                System.out.println("From state " + state.id + ": x, y " + state.x + " " + state.y + " ");
-                System.out.println("left " + (state.actionsQValue.get(State.left)));
-                System.out.println("right " + (state.actionsQValue.get(State.right)));
-                System.out.println("down " + (state.actionsQValue.get(State.down)));
-                System.out.println("up " + (state.actionsQValue.get(State.up)));
-                System.out.println("");
+def getPolicy(State s, double maxQ):
+    action = State.left
+    qValuesDict = s.get_actionQvalues()
+
+    for key in qValuesDict:
+        if (qValuesDict[key] == maxQ):
+            action = key
+    
+    return action
                 
             
-        
-    
-

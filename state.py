@@ -1,7 +1,3 @@
-final left = 1;
-final right = 2;
-final up = 3;
-final down = 4;
 
 class State:
     def __init__(self, x, y):
@@ -10,8 +6,25 @@ class State:
         self.__actionsQValue = {}
         self.__exploredActions = []
 
-    def add_action(self, action, value):
+    left = 1;
+    right = 2;
+    up = 3;
+    down = 4;
+
+    def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value
 
-    def get_Qvalue(self, action):
+    def get_actionQvalue(self, action):
         return self.__actionsQValue[action]
+
+    def get_actionQvalues(self):
+        return self.__actionsQValue
+
+    def add_exploredAction(self, action):
+        self.__exploredActions.append(action)
+
+    def get_exploredActions(self):
+        return self.__exploredActions
+
+    def getReward(self):
+        return 1
