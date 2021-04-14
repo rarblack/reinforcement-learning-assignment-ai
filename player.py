@@ -1,15 +1,17 @@
+from state import State
+
 class Player:
-    def __init__(self, id, sign, opponent=False):
-        self.__id                  = id
-        self.__sign                = sign
-        self.__is_opponent         = opponent
-        print(f'Player is set with {id} id and {sign.upper()} sign.')
+    def __init__(self):
+        self.__x                   = 0
+        self.__y                   = 0
+        self.__currentState        = State(x,y)
 
-    def get_id(self):
-        return self.__id
+    def get_currentState(self):
+        return self.__currentState
 
-    def get_sign(self):
-        return self.__sign
+    def set_currentState(self, s):
+        self.__currentState = s
 
-    def is_opponent(self):
-        return self.__is_opponent
+    def move(self):
+        self.__currentState = newState
+    

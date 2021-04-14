@@ -37,7 +37,7 @@ Update Q-value of a given state
 @param action - the action taken on the state
 @param nextState - the state on which the robot will land
 '''
-def updateQ(State s, int action, State nextState):
+def updateQ(s, action, nextState):
     #the FORMULA of Q-learning updates
     value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward(s) + gamma * getMaxQ(nextState));
 
@@ -66,7 +66,7 @@ Get maximum Q-value of a given state
 
 @param s - the state for which max Q-value will be found
 '''
-def getMaxQ(State s):
+def getMaxQ(s):
     maxQ = max(s.get_actionQvalue(State.left), 
                 max(s.get_actionQvalue(State.right), 
                 max(s.get_actionQvalue(State.up), s.get_actionQvalue(State.down))));
@@ -79,8 +79,8 @@ Get action for a given state
 @param s - the state for which action will be found
 
 '''
-def getAction(State s):
-    int action = 0;
+def getAction(s):
+    action = 0;
     possibleActions = []
 
     for i in range(1,4):
@@ -101,7 +101,7 @@ Get policy of a given state
 @param s - the state for which policy will be found
 
 '''
-def getPolicy(State s):
+def getPolicy(s):
     action = State.left
     maxV = getMaxQ(s)
 
@@ -122,7 +122,7 @@ Get policy of a given state
 @param s - the state for which policy will be found
 @param maxQ - corresponding maximum Q value
 '''
-def getPolicy(State s, double maxQ):
+def getPolicy(s, maxQ):
     action = State.left
     qValuesDict = s.get_actionQvalues()
 
@@ -131,5 +131,20 @@ def getPolicy(State s, double maxQ):
             action = key
     
     return action
-                
-            
+
+'''
+Learn environment
+
+@param w - the world which will be learning
+'''
+def learnEnvironment(w, p):
+    for i in range(5001):
+        w.add_state(State(x,y))
+
+        p.set_currentState(w.pop_state())
+
+        while (!w.isItEnd())
+            action = getAction(p.get_currentState());
+            previousState = p.get_currentState();
+            p.move(action);
+            updateQ(previousState, action, p.getCurrentState());
