@@ -5,10 +5,10 @@ class State:
         self.__actionsQValue = {}
         self.__exploredActions = []
 
-    left = 1;
-    right = 2;
-    up = 3;
-    down = 4;
+    W = 1;
+    E = 2;
+    N = 3;
+    S = 4;
 
     def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value
