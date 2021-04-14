@@ -37,7 +37,7 @@ Update Q-value of a given state
 @param action - the action taken on the state
 @param nextState - the state on which the robot will land
 '''
-def NdateQ(s, action, nextState):
+def UpdateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
     value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward(s) + gamma * getMaxQ(nextState));
 
@@ -145,4 +145,4 @@ def learnEnvironment(w, p):
         action = getAction(p.get_currentState());
         previousState = p.get_currentState();
         p.move(action);
-        NdateQ(previousState, action, p.getCurrentState());
+        UpdateQ(previousState, action, p.getCurrentState());
