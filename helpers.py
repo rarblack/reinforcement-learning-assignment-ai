@@ -1,34 +1,8 @@
 import random
 from state import State
 
-def increase(variable, amount=1):
-    variable += amount
-
-def decrease(variable, amount=1):
-    variable -= amount
-
-def fib(n):    # write Fibonacci series N to n
-    a, b = 0, 1
-    while a < n:
-        a, b = b, a + b
-
-    return b
-
-def parse_board_string(string):
-    moves = {}
-    splitted = string.split('\n')
-    size  = len(splitted[0])
-
-    for x, row in enumerate(splitted):
-        for y, sign in enumerate(row):
-            if not sign.__eq__('-'): 
-                moves[(x,y)] = sign
-
-    return (size, moves)
-
 alpha = 0.1;
 gamma = 0.9
-stateMatrix = [] #store all explored states
 
 '''
 Update Q-value of a given state
@@ -37,9 +11,9 @@ Update Q-value of a given state
 @param action - the action taken on the state
 @param nextState - the state on which the robot will land
 '''
-def UpdateQ(s, action, nextState):
+def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
-    value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward(s) + gamma * getMaxQ(nextState));
+    value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward() + gamma * getMaxQ(nextState));
 
     if (action == State.W):
         s.add_actionQValue(State.W, value)
@@ -84,7 +58,7 @@ def getAction(s):
     possibleActions = []
 
     for i in range(1,4):
-        if (i is not in s.get_exploredActions()):
+        if (i not in s.get_exploredActions()):
             possibleActions.append(i)
     
     if (len(possibleActions) > 0):
@@ -137,12 +111,13 @@ Learn environment
 
 @param w - the world which will be learning
 '''
-def learnEnvironment(w, p):
+def learnEnvironment(connection, w, p):
     # for i in range(5001):
-    p.set_currentState(w.pop_state())
+    for s_id in range(10):
+        p.set_currentState(w.get_state(s_id))
 
-    while (!w.isItEnd())
+        # while (w.isItEnd() == False):
         action = getAction(p.get_currentState());
         previousState = p.get_currentState();
-        p.move(action);
-        UpdateQ(previousState, action, p.getCurrentState());
+        p.move(connection, w, action);
+        updateQ(previousState, action, p.get_currentState());

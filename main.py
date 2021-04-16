@@ -1,25 +1,38 @@
 from connection import Connection
+from world import World
 from player import Player
-from board import Board
-from game import Game
+from helpers import *
 import time
 
 if __name__ == "__main__":
 
-    game = Game(api_key='c9426ee5181dca77e9a2', user_id='1055')
-    # 1256 1255
+    connection = Connection(api_key='c9426ee5181dca77e9a2', user_id='1055')
+    # 1256 1255 1248 1251
 
-    # use in real gaming
-    # game.create(player={'id':1248, 'sign':'O'},  opponent={'id':1251, 'sign':'X'}, board_size=6, target=4)
-    game.connect(player={'id':1248, 'sign':'X'}, opponent={'id':1255, 'sign':'O'}, game_id=3087)
+    # ENTER WORLD
+    w = World(0)
+    p = Player(1248)
+    # resp = connection.post_a_world(w.get_id(), p.get_id())
+    # print(resp)
 
-    winner = game.start()
-    # winner = game.testing(20, 10)
+    # LEARN
+    learnEnvironment(connection, w, p)
 
+    stateDict = w.get_stateDict()
+    # for k in stateDict:
+    k = 0
+    st = stateDict[k]
+    print(st.get_exploredActions())
+    print(st.getReward())
+    print("W")
+    print(st.get_actionQvalue(1))
+    print("E")
+    print(st.get_actionQvalue(2))
+    print("N")
+    print(st.get_actionQvalue(3))
+    print("S")
+    print(st.get_actionQvalue(4))
+    print("#####################")
+    #resp = connection.get_my_team_last_x_runs(1248, 1)
+    #print(resp)
     
-    print(f'Game ended at the round {game.get_board().get_round()}')
-
-    if winner:
-        print(f'The winner is {winner.get_sign()}')
-    else:
-        print('There is no winner. Game is tie!')

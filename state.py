@@ -1,14 +1,15 @@
 class State:
-    def __init__(self, x, y):
-        self.__x = x
-        self.__y = y
-        self.__actionsQValue = {}
-        self.__exploredActions = []
-
     W = 1;
     E = 2;
     N = 3;
     S = 4;
+
+    def __init__(self, x, y):
+        self.__x = x
+        self.__y = y
+        self.__reward = 0
+        self.__actionsQValue = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
+        self.__exploredActions = []
 
     def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value
@@ -25,5 +26,8 @@ class State:
     def get_exploredActions(self):
         return self.__exploredActions
 
+    def setReward(self, r):
+        self.__reward = r
+
     def getReward(self):
-        return 1
+        return self.__reward
