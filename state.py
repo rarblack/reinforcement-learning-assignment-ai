@@ -32,6 +32,6 @@ class State:
     def getReward(self):
         return self.__reward
 
-    def __print(self):
+    def print(self):
         print("State coordinates: "+str(self.__x)+", "+str(self.__y))
         print(self.__actionsQValue)

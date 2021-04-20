@@ -29,7 +29,7 @@ class Player:
             actionName = "S"
         resp = connection.post_a_move(self.__id, actionName)
         # {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
-        print("State: ")
+        print("New State: ")
         print(resp['newState'])
         if resp['newState'] != None:
             index = int(resp['newState']['x'])*40 + int(resp['newState']['y'])
