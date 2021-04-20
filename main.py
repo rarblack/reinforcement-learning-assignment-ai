@@ -14,11 +14,11 @@ if __name__ == "__main__":
     w = World(0)
     p = Player(teamId)
     # resp = connection.get_me_located(teamId)
-    resp = connection.post_a_world(w.get_id(), p.get_id())
-    print(resp)
+    # resp = connection.post_a_world(w.get_id(), p.get_id())
+    # print(resp)
 
     # LEARN
-    learnEnvironment(connection, w, p)
+    # learnEnvironment(connection, w, p)
     print(connection.get_my_teams_rl_score(teamId))
 
     # stateDict = w.get_stateDict()

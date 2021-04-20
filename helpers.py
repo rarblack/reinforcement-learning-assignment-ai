@@ -78,19 +78,26 @@ Get policy of a given state
 @param s - the state for which policy will be found
 
 '''
-# to do: what if every move has an exact value?
 def getPolicy(s):
     action = State.W
     maxV = getMaxQ(s)
+    maxActionCount = 0
 
     if (maxV == s.get_actionQvalue(State.W)):
         action = State.W
-    elif (maxV == s.get_actionQvalue(State.E)):
+        maxActionCount+=1
+    if (maxV == s.get_actionQvalue(State.E)):
         action = State.E
-    elif (maxV == s.get_actionQvalue(State.N)):
+        maxActionCount+=1
+    if (maxV == s.get_actionQvalue(State.N)):
         action = State.N
-    else:
+        maxActionCount+=1
+    if (maxV == s.get_actionQvalue(State.S)):
         action = State.S;
+        maxActionCount+=1
+
+    if (maxActionCount == 4):
+        action = random.choice([State.W, State.E, State.N, State.S])
     
     return action
     
