@@ -56,7 +56,7 @@ Get action for a given state
 def getAction(s):
     action = 0;
     possibleActions = []
-    print(s.print())
+    s.print()
     print("Explored Actions: ")
     print(s.get_exploredActions())
 
