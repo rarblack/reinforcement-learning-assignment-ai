@@ -8,7 +8,7 @@ class State:
         self.__x = x
         self.__y = y
         self.__reward = 0
-        self.__actionsQValue = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
+        self.__actionsQValue = {State.W: float('-inf'), State.E: float('-inf'), State.N: float('-inf'), State.S: float('-inf')}
         self.__exploredActions = []
 
     def add_actionQValue(self, action, value):
@@ -27,7 +27,10 @@ class State:
         return self.__exploredActions
 
     def setReward(self, r):
-        self.__reward = r
+        self.__reward = int(r)
 
     def getReward(self):
         return self.__reward
+
+    def print(self):
+        print("State coordinates: "+str(self.__x)+", "+str(self.__y))

@@ -1,4 +1,4 @@
-import random
+import random, time
 from state import State
 
 alpha = 0.1;
@@ -56,6 +56,9 @@ Get action for a given state
 def getAction(s):
     action = 0;
     possibleActions = []
+    print(s.print())
+    print("Explored Actions: ")
+    print(s.get_exploredActions())
 
     for i in range(1,4):
         if (i not in s.get_exploredActions()):
@@ -65,7 +68,7 @@ def getAction(s):
         action = random.choice(possibleActions)
     else:
         action = getPolicy(s)
-
+    print("Current action: "+str(action))
     return action
 
     
@@ -96,15 +99,15 @@ Get policy of a given state
 @param s - the state for which policy will be found
 @param maxQ - corresponding maximum Q value
 '''
-def getPolicy(s, maxQ):
-    action = State.W
-    qValuesDict = s.get_actionQvalues()
+# def getPolicy(s, maxQ):
+#     action = State.W
+#     qValuesDict = s.get_actionQvalues()
 
-    for key in qValuesDict:
-        if (qValuesDict[key] == maxQ):
-            action = key
+#     for key in qValuesDict:
+#         if (qValuesDict[key] == maxQ):
+#             action = key
     
-    return action
+#     return action
 
 '''
 Learn environment
@@ -113,11 +116,12 @@ Learn environment
 '''
 def learnEnvironment(connection, w, p):
     # for i in range(5001):
-    for s_id in range(10):
-        p.set_currentState(w.get_state(s_id))
+    
+    p.set_currentState(w.get_state(0))
 
-        # while (w.isItEnd() == False):
-        action = getAction(p.get_currentState());
-        previousState = p.get_currentState();
-        p.move(connection, w, action);
-        updateQ(previousState, action, p.get_currentState());
+    while (w.get_isItEnd() == False):
+        previousState = p.get_currentState();                   # store your state
+        action = getAction(p.get_currentState());               # get a random direction/action
+        p.move(connection, w, action);                          # make the move
+        updateQ(previousState, action, p.get_currentState());   # update Q values
+        time.sleep(15)                                          # wait before next move

@@ -22,7 +22,7 @@ class Connection:
     def __send_get_request(self, params, url_ending = 'gw.php'):
         return requests.get(self.__url + url_ending + '?' + params, headers=self.__headers, data={})
 
-    def get_me_located(self):
+    def get_me_located(self, teamId):
         """
         Return Values: your current world and state in that world.  
         Think of this as your GPS, and confirm where you are.  

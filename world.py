@@ -4,6 +4,7 @@ class World:
     def __init__(self, wid):
         self.__id               		   = wid
         self.__stateDict                   = {}
+        self.__isItEnd                     = False
 
         for x in range(40):
             for y in range(40):
@@ -21,6 +22,12 @@ class World:
 
     def get_stateDict(self):
         return self.__stateDict
+
+    def set_isItEnd(self):
+        self.__isItEnd = True
+
+    def get_isItEnd(self):
+        return self.__isItEnd
 
     # to do
     # def isItEnd(self):
