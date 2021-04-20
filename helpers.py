@@ -14,7 +14,7 @@ Update Q-value of a given state
 def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
     value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward() + gamma * getMaxQ(nextState));
-
+ 
     if (action == State.W):
         s.add_actionQValue(State.W, value)
         if (State.W not in s.get_exploredActions()):
@@ -78,6 +78,7 @@ Get policy of a given state
 @param s - the state for which policy will be found
 
 '''
+# to do: what if every move has an exact value?
 def getPolicy(s):
     action = State.W
     maxV = getMaxQ(s)
