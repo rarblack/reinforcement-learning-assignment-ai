@@ -19,6 +19,7 @@ if __name__ == "__main__":
 
     # LEARN
     learnEnvironment(connection, w, p)
+    print(connection.get_my_teams_rl_score(teamId))
 
     # stateDict = w.get_stateDict()
     # for k in stateDict:

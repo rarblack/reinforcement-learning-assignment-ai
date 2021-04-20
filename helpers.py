@@ -60,7 +60,7 @@ def getAction(s):
     print("Explored Actions: ")
     print(s.get_exploredActions())
 
-    for i in range(1,4):
+    for i in range(1,5):
         if (i not in s.get_exploredActions()):
             possibleActions.append(i)
     
