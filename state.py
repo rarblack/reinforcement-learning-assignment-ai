@@ -34,3 +34,4 @@ class State:
 
     def print(self):
         print("State coordinates: "+str(self.__x)+", "+str(self.__y))
+        print(self.__actionsQValue)
