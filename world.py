@@ -21,7 +21,7 @@ class World:
         self.__is_terminal = True
 
     def get_isItEnd(self):
-        return self.__isItEnd
+        return self.__is_terminal
 
     def __generate_state(self,):
         for x in range(40):
@@ -32,5 +32,5 @@ class World:
         print(f"All states: {len(self.__states)}")
 
     # TODO: create a terminal state function
-    # def isItEnd(self):
-    # 	return len(self.__stateDict) == 0
+    def isItEnd(self):
+        return len(self.__stateDict) == 0
