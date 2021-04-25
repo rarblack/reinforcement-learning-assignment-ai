@@ -5,11 +5,11 @@ class State:
     S = 4;
 
     def __init__(self, x, y):
-        self.__x = x
-        self.__y = y
-        self.__reward = 0
-        self.__actionsQValue = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
-        self.__exploredActions = []
+        self.__x                = x
+        self.__y                = y
+        self.__reward           = 0
+        self.__exploredActions  = []
+        self.__actionsQValue    = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
 
     def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value
@@ -32,6 +32,5 @@ class State:
     def getReward(self):
         return self.__reward
 
-    def print(self):
-        print("State coordinates: "+str(self.__x)+", "+str(self.__y))
-        print(self.__actionsQValue)
+    def __str__(self):
+        return f"State coordinates: {str(self.__x)}, {str(self.__y)}\n{self.__actionsQValue}"

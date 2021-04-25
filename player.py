@@ -2,23 +2,22 @@ from state import State
 from world import World
 
 class Player:
-    def __init__(self, pid):
-        self.__id                  = pid
+    def __init__(self, id):
+        self.__id                  = id
         self.__x                   = 0
         self.__y                   = 0
-        self.__currentState        = None
+        self.__current_state       = None
 
     def get_id(self):
         return self.__id
 
     def get_currentState(self):
-        return self.__currentState
+        return self.__current_state
 
     def set_currentState(self, s):
-        self.__currentState = s
+        self.__current_state = s
 
     def move(self, connection, w, action):
-        actionName = "W"
         if action == 1:
             actionName = "W"
         elif action == 2:
@@ -27,17 +26,19 @@ class Player:
             actionName = "N"
         elif action == 4:
             actionName = "S"
-        resp = connection.post_a_move(self.__id, actionName)
+
+        respond = connection.make_a_move(self.__id, actionName)
+
         # {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
-        print("New State: ")
-        print(resp['newState'])
-        if resp['newState'] != None:
-            index = int(resp['newState']['x'])*40 + int(resp['newState']['y'])
+        print(f"New State: {respond['newState']}")
+
+        if respond['newState'] != None:
+            index = int(respond['newState']['x'])*40 + int(respond['newState']['y'])
             newState = w.get_state(index)   # new state
 
-            self.__currentState = newState
-            newState.setReward(resp['reward'])
-            print("Reward: "+str(resp['reward']))
+            self.__current_state = newState
+            newState.setReward(respond['reward'])
+            print(f"Reward: {respond['reward']}")
         else:
             w.set_isItEnd()
             
