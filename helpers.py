@@ -45,9 +45,9 @@ s - the state for which max Q-value will be found
 def getMaxQ(s):
     maxQ = max(
         s.get_actionQvalue(State.W), 
-        max(s.get_actionQvalue(State.E), 
-        max(s.get_actionQvalue(State.N), 
-        s.get_actionQvalue(State.S)))
+        s.get_actionQvalue(State.E), 
+        s.get_actionQvalue(State.N), 
+        s.get_actionQvalue(State.S)
     )
 
     return maxQ

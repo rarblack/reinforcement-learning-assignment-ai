@@ -73,7 +73,7 @@ if __name__ == "__main__":
     #     print("S")
     #     print(st.get_actionQvalue(4))
 
-    # learnEnvironment(connection, world, player)
+    learnEnvironment(connection, world, player)
     print(connection.get_my_teams_rl_score(player.get_id()))
     print(connection.get_me_located(teamId=player.get_id()))
     storeQvalues(world)
