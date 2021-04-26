@@ -13,7 +13,7 @@ if __name__ == "__main__":
     teamId = 1248
     w = World(0)
     p = Player(teamId)
-    # resp = connection.get_me_located(teamId)
+    resp = connection.get_me_located(teamId)
     # resp = connection.post_a_world(w.get_id(), p.get_id())
     # print(resp)
 
