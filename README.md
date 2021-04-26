@@ -2,8 +2,7 @@
 # EXPLORATION GAME
 
 ## HOW TO RUN
-### Version 1
-* python .\main.py
+* python3 .\main.py
 
 ## Copyright
 
