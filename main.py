@@ -21,10 +21,11 @@ def loadQvalues(world):
 
                 Qinfo = (info.split("{")[1][0:-1]).strip().split(",") # delete last symbols
                 for comp in Qinfo:
-                    action = int(comp.split(" ")[0].strip())
-                    value = float(comp.split(" ")[1].strip())
-                    state.add_actionQValue(action, value)
-                    state.add_exploredAction(action)
+                    if (len(comp) > 0):
+                        action = int(comp.split(" ")[0].strip())
+                        value = float(comp.split(" ")[1].strip())
+                        state.add_actionQValue(action, value)
+                        state.add_exploredAction(action)
         f.close()
     else:
         print ("World information has not been found.")
@@ -41,7 +42,7 @@ def storeQvalues(world):
         f.write("{")
         for a in exploredActions:
             f.write(str(a)+" "+str(state.get_actionQvalue(a))+",")
-        f.write("}")
+        f.write("}\n")
 
     f.close()
 
@@ -61,6 +62,7 @@ if __name__ == "__main__":
     # stateDict = world.get_stateDict()
     # for k in stateDict:
     #     st = stateDict[k]
+    #     print("State: "+str(k))
     #     print(st.get_exploredActions())
     #     print("W")
     #     print(st.get_actionQvalue(1))
@@ -71,7 +73,7 @@ if __name__ == "__main__":
     #     print("S")
     #     print(st.get_actionQvalue(4))
 
-    learnEnvironment(connection, world, player)
+    # learnEnvironment(connection, world, player)
     print(connection.get_my_teams_rl_score(player.get_id()))
     print(connection.get_me_located(teamId=player.get_id()))
     storeQvalues(world)
