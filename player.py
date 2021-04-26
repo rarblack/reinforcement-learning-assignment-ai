@@ -18,6 +18,7 @@ class Player:
         self.__current_state = s
 
     def move(self, connection, w, action):
+        actionName = "W"
         if action == 1:
             actionName = "W"
         elif action == 2:
