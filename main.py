@@ -53,8 +53,8 @@ if __name__ == "__main__":
     # EARLY SETUP
     world, player = World(id=0), Player(id=1248)
     resp = connection.get_me_located(player.get_id())
-    # respond = connection.enter_to_world(world.get_id(), player.get_id())
-    # print(respond)
+    respond = connection.enter_to_world(world.get_id(), player.get_id())
+    print(respond)
 
     # LEARN
     loadQvalues(world)

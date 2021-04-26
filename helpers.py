@@ -32,8 +32,8 @@ def updateQ(s, action, nextState):
         
     elif (action == State.S):
         s.add_actionQValue(State.S, value)
-        if (State.N not in s.get_exploredActions()):
-            s.add_exploredAction(State.N)
+        if (State.S not in s.get_exploredActions()):
+            s.add_exploredAction(State.S)
 
 
 
