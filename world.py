@@ -1,34 +1,36 @@
 from state import State
 
 class World:
-    def __init__(self, wid):
-        self.__id               		   = wid
-        self.__stateDict                   = {}
-        self.__isItEnd                     = False
-
-        for x in range(40):
-            for y in range(40):
-                s = State(x,y)
-                index = x*40 + y
-                self.__stateDict[index] = s
-
-        print("All states: "+str(len(self.__stateDict)))
+    def __init__(self, id):
+        self.__id           = id
+        self.__states       = {}
+        self.__is_terminal  = False
+        
+        self.__generate_state()
 
     def get_id(self):
     	return self.__id
 
     def get_state(self, key):
-    	return self.__stateDict[key]
+    	return self.__states[key]
 
     def get_stateDict(self):
-        return self.__stateDict
+        return self.__states
 
     def set_isItEnd(self):
-        self.__isItEnd = True
+        self.__is_terminal = True
 
     def get_isItEnd(self):
-        return self.__isItEnd
+        return self.__is_terminal
 
-    # to do
-    # def isItEnd(self):
-    # 	return len(self.__stateDict) == 0
+    def __generate_state(self,):
+        for x in range(40):
+            for y in range(40):
+                index = 40 * x + y
+                self.__states[index] = State(x, y)
+
+        print(f"All states: {len(self.__states)}")
+
+    # TODO: create a terminal state function
+    def isItEnd(self):
+        return len(self.__stateDict) == 0

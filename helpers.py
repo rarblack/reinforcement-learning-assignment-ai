@@ -1,5 +1,5 @@
-import random, time
 from state import State
+import random, time
 
 alpha = 0.1;
 gamma = 0.9
@@ -7,9 +7,9 @@ gamma = 0.9
 '''
 Update Q-value of a given state
 
-@param s - the state for which Q-value will be Ndated
-@param action - the action taken on the state
-@param nextState - the state on which the robot will land
+s - the state for which Q-value will be Ndated
+action - the action taken on the state
+nextState - the state on which the robot will land
 '''
 def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
@@ -35,30 +35,34 @@ def updateQ(s, action, nextState):
         if (State.N not in s.get_exploredActions()):
             s.add_exploredAction(State.N)
 
+
+
 '''
 Get maximum Q-value of a given state
 
-@param s - the state for which max Q-value will be found
+s - the state for which max Q-value will be found
 '''
 def getMaxQ(s):
-    maxQ = max(s.get_actionQvalue(State.W), 
-                max(s.get_actionQvalue(State.E), 
-                max(s.get_actionQvalue(State.N), s.get_actionQvalue(State.S))));
+    maxQ = max(
+        s.get_actionQvalue(State.W), 
+        max(s.get_actionQvalue(State.E), 
+        max(s.get_actionQvalue(State.N), 
+        s.get_actionQvalue(State.S)))
+    )
+
     return maxQ
     
     
 '''
 Get action for a given state
 
-@param s - the state for which action will be found
+s - the state for which action will be found
 
 '''
 def getAction(s):
     action = 0;
     possibleActions = []
-    s.print()
-    print("Explored Actions: ")
-    print(s.get_exploredActions())
+    print(f'{s}\nExplored Actions:\n{s.get_exploredActions()}') # print state and explored actions
 
     for i in range(1,5):
         if (i not in s.get_exploredActions()):
@@ -68,14 +72,16 @@ def getAction(s):
         action = random.choice(possibleActions)
     else:
         action = getPolicy(s)
-    print("Current action: "+str(action))
+
+    print(f"Current action: {str(action)}")
+
     return action
 
     
 '''
 Get policy of a given state
 
-@param s - the state for which policy will be found
+s - the state for which policy will be found
 
 '''
 def getPolicy(s):
@@ -104,8 +110,8 @@ def getPolicy(s):
 '''
 Get policy of a given state
 
-@param s - the state for which policy will be found
-@param maxQ - corresponding maximum Q value
+s - the state for which policy will be found
+maxQ - corresponding maximum Q value
 '''
 # def getPolicy(s, maxQ):
 #     action = State.W
@@ -120,16 +126,16 @@ Get policy of a given state
 '''
 Learn environment
 
-@param w - the world which will be learning
+w - the world which will be learning
 '''
 def learnEnvironment(connection, w, p):
-    # for i in range(5001):
     
     p.set_currentState(w.get_state(0))
 
     while (w.get_isItEnd() == False):
-        previousState = p.get_currentState();                   # store your state
-        action = getAction(p.get_currentState());               # get a random direction/action
-        p.move(connection, w, action);                          # make the move
-        updateQ(previousState, action, p.get_currentState());   # update Q values
-        time.sleep(15)                                          # wait before next move
+        previousState   = p.get_currentState();                     # store your state
+        action          = getAction(p.get_currentState());          # get a random direction/action
+        
+        p.move(connection, w, action);                              # make the move
+        updateQ(previousState, action, p.get_currentState());       # update Q values
+        time.sleep(15)                                              # wait before next move
