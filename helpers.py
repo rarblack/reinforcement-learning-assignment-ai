@@ -13,7 +13,11 @@ nextState - the state on which the robot will land
 '''
 def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
-    value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (nextState.getReward() + gamma * getMaxQ(nextState));
+    value = 0
+    if (nextState != None):
+        value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (s.getReward() + gamma * getMaxQ(nextState))
+    else:
+        value = (1 - alpha) * s.get_actionQvalue(action) + alpha * s.getReward()
  
     if (action == State.W):
         s.add_actionQValue(State.W, value)
@@ -136,6 +140,6 @@ def learnEnvironment(connection, w, p):
         previousState   = p.get_currentState();                     # store your state
         action          = getAction(p.get_currentState());          # get a random direction/action
         
-        p.move(connection, w, action);                              # make the move
+        p.move(connection, w, action)                              # make the move
         updateQ(previousState, action, p.get_currentState());       # update Q values
         time.sleep(15)                                              # wait before next move

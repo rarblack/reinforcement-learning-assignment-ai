@@ -30,7 +30,3 @@ class World:
                 self.__states[index] = State(x, y)
 
         print(f"All states: {len(self.__states)}")
-
-    # TODO: create a terminal state function
-    def isItEnd(self):
-        return len(self.__stateDict) == 0
