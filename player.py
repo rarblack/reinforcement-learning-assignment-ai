@@ -29,12 +29,12 @@ class Player:
             actionName = "S"
 
         respond = connection.make_a_move(self.__id, actionName, w.get_id())
-        print(respond)
+        # print(respond)
         # {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
-        print(f"New State: {respond['newState']}")
+        # print(f"New State: {respond['newState']}")
 
         self.__current_state.setReward(respond['reward'])
-        print(f"Reward: {respond['reward']}")
+        # print(f"Reward: {respond['reward']}")
         if respond['newState'] != None:
             index = int(respond['newState']['x'])*40 + int(respond['newState']['y'])
             newState = w.get_state(index)   # new state

@@ -9,7 +9,7 @@ class State:
         self.__y                = y
         self.__reward           = 0
         self.__exploredActions  = []
-        self.__actionsQValue    = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
+        self.__actionsQValue    = {State.W: float("-inf"), State.E: float("-inf"), State.N: float("-inf"), State.S: float("-inf")}
 
     def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value

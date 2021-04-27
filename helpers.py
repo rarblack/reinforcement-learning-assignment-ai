@@ -14,10 +14,14 @@ nextState - the state on which the robot will land
 def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
     value = 0
+    q_value = s.get_actionQvalue(action)
+    if (q_value == float("-inf")):
+        q_value = 0
+
     if (nextState != None):
-        value = (1 - alpha) * s.get_actionQvalue(action) + alpha * (s.getReward() + gamma * getMaxQ(nextState))
+        value = (1 - alpha) * q_value + alpha * (s.getReward() + gamma * getMaxQ(nextState))
     else:
-        value = (1 - alpha) * s.get_actionQvalue(action) + alpha * s.getReward()
+        value = (1 - alpha) * q_value + alpha * s.getReward()
  
     if (action == State.W):
         s.add_actionQValue(State.W, value)
@@ -53,7 +57,8 @@ def getMaxQ(s):
         s.get_actionQvalue(State.N), 
         s.get_actionQvalue(State.S)
     )
-
+    if (maxQ == float("-inf")):
+        maxQ = 0
     return maxQ
     
     
