@@ -28,7 +28,7 @@ class Player:
         elif action == 4:
             actionName = "S"
 
-        respond = connection.make_a_move(self.__id, actionName)
+        respond = connection.make_a_move(self.__id, actionName, w.get_id())
 
         # {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
         print(f"New State: {respond['newState']}")

@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # 1256 1255 1248 1251
 
     # EARLY SETUP
-    world, player = World(id=0), Player(id=1248)
+    world, player = World(id=7), Player(id=1248)
     resp = connection.get_me_located(player.get_id())
     respond = connection.enter_to_world(world.get_id(), player.get_id())
     print(respond)
@@ -72,7 +72,6 @@ if __name__ == "__main__":
     #     print(st.get_actionQvalue(3))
     #     print("S")
     #     print(st.get_actionQvalue(4))
-
     learnEnvironment(connection, world, player)
     print(connection.get_my_teams_rl_score(player.get_id()))
     print(connection.get_me_located(teamId=player.get_id()))
