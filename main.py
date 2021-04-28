@@ -47,12 +47,15 @@ def storeQvalues(world):
     f.close()
 
 if __name__ == "__main__":
-
+    # for w_id in range(1,11):
+    #     print("WORLD "+str(w_id))
+    #     for it in range(5):
+    #         print("ITERATION "+str(it))
     connection = Connection(api_key='c9426ee5181dca77e9a2', user_id='1055')
     # 1256 1255 1248 1251
 
     # EARLY SETUP
-    world, player = World(id=8), Player(id=1248)
+    world, player = World(id=0), Player(id=1248)
     resp = connection.get_me_located(player.get_id())
     respond = connection.enter_to_world(world.get_id(), player.get_id())
     print(respond)
@@ -72,7 +75,14 @@ if __name__ == "__main__":
     #     print(st.get_actionQvalue(3))
     #     print("S")
     #     print(st.get_actionQvalue(4))
-    learnEnvironment(connection, world, player)
+    print(connection.get_me_located(teamId=player.get_id())['state'])
+    current_place = connection.get_me_located(teamId=player.get_id())['state']
+    if (current_place != None):
+        index = int(current_place.split(":")[0])*40 + int(current_place.split(":")[1])
+        learnEnvironment(connection, world, player, index)
+    else:
+        learnEnvironment(connection, world, player)
     print(connection.get_my_teams_rl_score(player.get_id()))
     print(connection.get_me_located(teamId=player.get_id()))
+    print(connection.get_me_located(teamId=player.get_id())['state'])
     storeQvalues(world)

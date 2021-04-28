@@ -137,9 +137,9 @@ Learn environment
 
 w - the world which will be learning
 '''
-def learnEnvironment(connection, w, p):
+def learnEnvironment(connection, w, p, stateId = 0):
     
-    p.set_currentState(w.get_state(0))
+    p.set_currentState(w.get_state(stateId))
 
     while (w.get_isItEnd() == False):
         previousState   = p.get_currentState();                     # store your state
