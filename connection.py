@@ -87,7 +87,7 @@ class Connection:
         response = self.__send_post_request(payload)
         return self.__validate(response)
 
-    def make_a_move(self, teamId, move):
+    def make_a_move(self, teamId, move, worldId):
         """
         Return Values: Reward, New State entered $runId started
         Fails if you are not already in a world (in that case, enter a world first).
@@ -95,11 +95,15 @@ class Connection:
         This is the central part of your “learning” agent.
         Your program needs to carefully process the result.
         Introduce a delay and do not make more than one move call every 15 seconds.
+
+        Successfull Response: 
+        {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
         """
         payload = {
             'type': 'move', 
             'teamId': teamId,
             'move': move,
+            'worldId': worldId
         }
 
         response = self.__send_post_request(payload)
