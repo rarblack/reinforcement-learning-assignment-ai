@@ -1,0 +1,3424 @@
+WORLD 1
+ITERATION 0
+All states: 1600
+Api returned FAIL code with the below message
+Cannot enter the world.  You are currently in world: 1
+None
+World information has not been found.
+State coordinates: 20, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 20, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 20, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 21, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 20, 4
+{1: -inf, 2: -inf, 3: -inf, 4: 0.095}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 20, 5
+{1: -inf, 2: -inf, 3: -inf, 4: 0.1}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 20, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 21, 4
+{1: 0.14275000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 20, 4
+{1: -inf, 2: -inf, 3: 0.15, 4: 0.095}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 19, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 20, 3
+{1: -inf, 2: 0.1, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 21, 3
+{1: -inf, 2: -inf, 3: 0.105, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 20, 3
+{1: -inf, 2: 0.1, 3: 0.14725, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 4
+State coordinates: 20, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 22, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 21, 2
+{1: -inf, 2: -inf, 3: -inf, 4: 0.1}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 22, 2
+{1: 0.14, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 22, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 22, 2
+{1: 0.14, 2: -inf, 3: -inf, 4: 0.095}
+Explored Actions:
+[1, 4]
+Current action: 3
+State coordinates: 22, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 23, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 22, 2
+{1: 0.14, 2: -inf, 3: 0.105, 4: 0.095}
+Explored Actions:
+[1, 4, 3]
+Current action: 2
+State coordinates: 22, 1
+{1: -inf, 2: -inf, 3: 0.16300000000000003, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 22, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 22, 1
+{1: -inf, 2: 0.095, 3: 0.16300000000000003, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 22, 0
+{1: -inf, 2: 0.16835, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 22, 0
+{1: -inf, 2: 0.16835, 3: -inf, 4: 0.1707575}
+Explored Actions:
+[2, 4]
+Current action: 1
+State coordinates: 21, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 21, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 20, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 19, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 19, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 20, 2
+{1: -inf, 2: 0.095, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 20, 1
+{1: 0.085, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 20, 2
+{1: -inf, 2: 0.095, 3: -inf, 4: 0.12825}
+Explored Actions:
+[2, 4]
+Current action: 1
+State coordinates: 19, 2
+{1: -inf, 2: 0.13775, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 18, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 19, 2
+{1: 0.085, 2: 0.13775, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 19, 1
+{1: -inf, 2: -inf, 3: 0.09, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 19, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 19, 1
+{1: 0.085, 2: -inf, 3: 0.09, 4: -inf}
+Explored Actions:
+[3, 1]
+Current action: 2
+State coordinates: 20, 1
+{1: 0.085, 2: -inf, 3: 0.1527125, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 21, 1
+{1: 0.09, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 20, 1
+{1: 0.085, 2: 0.1355, 3: 0.1527125, 4: -inf}
+Explored Actions:
+[1, 3, 2]
+Current action: 4
+State coordinates: 20, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 0
+{1: -inf, 2: -inf, 3: 0.1255, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 18, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 18, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 19, 1
+{1: 0.085, 2: 0.158720625, 3: 0.09, 4: -inf}
+Explored Actions:
+[3, 1, 2]
+Current action: 4
+State coordinates: 19, 0
+{1: -inf, 2: -inf, 3: 0.1255, 4: 0.08}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 20, 0
+{1: -inf, 2: -inf, 3: -inf, 4: 0.14147500000000002}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 0
+{1: -inf, 2: 0.14866375, 3: 0.1255, 4: 0.08}
+Explored Actions:
+[3, 4, 2]
+Current action: 1
+State coordinates: 18, 0
+{1: -inf, 2: -inf, 3: 0.085, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 19, 0
+{1: 0.11825000000000001, 2: 0.14866375, 3: 0.1255, 4: 0.08}
+Explored Actions:
+[3, 4, 2, 1]
+Current action: 2
+State coordinates: 19, 1
+{1: 0.085, 2: 0.158720625, 3: 0.09, 4: 0.14147500000000002}
+Explored Actions:
+[3, 1, 2, 4]
+Current action: 2
+State coordinates: 19, 2
+{1: 0.085, 2: 0.13775, 3: -inf, 4: 0.1255}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 19, 3
+{1: -inf, 2: 0.14, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 18, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 19, 3
+{1: 0.09, 2: 0.14, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 19, 4
+{1: -inf, 2: -inf, 3: -inf, 4: 0.095}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 18, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 18, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 18, 4
+{1: -inf, 2: -inf, 3: 0.095, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 19, 4
+{1: -inf, 2: -inf, 3: 0.095, 4: 0.095}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 19, 3
+{1: 0.09, 2: 0.14, 3: 0.13775, 4: -inf}
+Explored Actions:
+[2, 1, 3]
+Current action: 4
+State coordinates: 19, 2
+{1: 0.085, 2: 0.13775, 3: 0.15800000000000003, 4: 0.1255}
+Explored Actions:
+[2, 1, 4, 3]
+Current action: 3
+State coordinates: 19, 3
+{1: 0.09, 2: 0.14, 3: 0.13775, 4: 0.16110000000000002}
+Explored Actions:
+[2, 1, 3, 4]
+Current action: 4
+State coordinates: 19, 2
+{1: 0.085, 2: 0.13775, 3: 0.24649500000000002, 4: 0.1255}
+Explored Actions:
+[2, 1, 4, 3]
+Current action: 3
+State coordinates: 19, 3
+{1: 0.09, 2: 0.14, 3: 0.13775, 4: 0.28147275000000005}
+Explored Actions:
+[2, 1, 3, 4]
+Current action: 4
+State coordinates: 18, 3
+{1: -inf, 2: 0.15800000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 18, 2
+{1: -inf, 2: 0.1519875, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 17, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 18, 2
+{1: 0.085, 2: 0.1519875, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 18, 3
+{1: -inf, 2: 0.15800000000000003, 3: -inf, 4: 0.15339437500000003}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 18, 4
+{1: -inf, 2: 0.13775, 3: 0.095, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 18, 3
+{1: -inf, 2: 0.15800000000000003, 3: 0.1569875, 4: 0.15339437500000003}
+Explored Actions:
+[2, 4, 3]
+Current action: 1
+State coordinates: 17, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 16, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 17, 2
+{1: -inf, 2: 0.15339437500000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 16, 2
+{1: -inf, 2: 0.15402746875, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 17, 2
+{1: 0.1493123609375, 2: 0.15339437500000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 17, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 16, 2
+{1: -inf, 2: 0.15402746875, 3: -inf, 4: 0.15402746875}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 17, 2
+{1: 0.1493123609375, 2: 0.15339437500000003, 3: -inf, 4: 0.08}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 17, 3
+{1: 0.085, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 17, 2
+{1: 0.1493123609375, 2: 0.15339437500000003, 3: 0.12325000000000001, 4: 0.08}
+Explored Actions:
+[2, 1, 4, 3]
+Current action: 2
+State coordinates: 17, 1
+{1: 0.08, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 17, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 17, 0
+{1: -inf, 2: -inf, 3: -inf, 4: 0.08}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 17, 1
+{1: 0.08, 2: -inf, 3: -inf, 4: 0.08}
+Explored Actions:
+[1, 4]
+Current action: 3
+State coordinates: 17, 2
+{1: 0.1493123609375, 2: 0.19269718750000003, 3: 0.12325000000000001, 4: 0.08}
+Explored Actions:
+[2, 1, 4, 3]
+Current action: 2
+State coordinates: 17, 3
+{1: 0.085, 2: -inf, 3: -inf, 4: 0.15402746875}
+Explored Actions:
+[1, 4]
+Current action: 3
+State coordinates: 17, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 16, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 16, 4
+{1: -inf, 2: -inf, 3: 0.09, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+WORLD 1
+ITERATION 0
+All states: 1600
+Api returned FAIL code with the below message
+Cannot enter the world.  You are currently in world: 1
+None
+World information has not been found.
+State coordinates: 17, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 18, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 18, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 17, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 16, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 17, 4
+{1: -inf, 2: 0.019000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 17, 5
+{1: 0.018, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 18, 5
+{1: 0.019000000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 18, 4
+{1: -inf, 2: -inf, 3: 0.019000000000000003, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 18, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 17, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 17, 4
+{1: -inf, 2: 0.019000000000000003, 3: 0.02062, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 16, 4
+{1: -inf, 2: 0.019710000000000002, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 16, 5
+{1: -inf, 2: -inf, 3: -inf, 4: 0.017}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 17, 5
+{1: 0.018, 2: -inf, 3: -inf, 4: 0.020710000000000003}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 18, 5
+{1: 0.019000000000000003, 2: -inf, 3: -inf, 4: 0.020710000000000003}
+Explored Actions:
+[1, 4]
+Current action: 3
+State coordinates: 19, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 18, 4
+{1: -inf, 2: -inf, 3: 0.019000000000000003, 4: 0.018}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 19, 4
+{1: -inf, 2: -inf, 3: 0.020710000000000003, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 19, 5
+{1: -inf, 2: -inf, 3: -inf, 4: 0.019000000000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 5
+{1: -inf, 2: -inf, 3: 0.021, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 19, 4
+{1: -inf, 2: 0.021710000000000004, 3: 0.020710000000000003, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 19, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 20, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 19, 3
+{1: -inf, 2: 0.019000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 19, 4
+{1: -inf, 2: 0.021710000000000004, 3: 0.020710000000000003, 4: 0.019000000000000003}
+Explored Actions:
+[3, 2, 4]
+Current action: 1
+State coordinates: 18, 4
+{1: -inf, 2: 0.020863900000000005, 3: 0.019000000000000003, 4: 0.018}
+Explored Actions:
+[3, 4, 2]
+Current action: 1
+State coordinates: 17, 4
+{1: 0.018773900000000003, 2: 0.019000000000000003, 3: 0.02062, 4: -inf}
+Explored Actions:
+[2, 3, 1]
+Current action: 4
+State coordinates: 17, 3
+{1: -inf, 2: 0.0198558, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 16, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 16, 4
+{1: -inf, 2: 0.019710000000000002, 3: 0.019530000000000002, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 4
+State coordinates: 16, 3
+{1: -inf, 2: -inf, 3: 0.018773900000000003, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 17, 3
+{1: 0.017, 2: 0.0198558, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 17, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 16, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 16, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 16, 1
+{1: -inf, 2: -inf, 3: -inf, 4: 0.015}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 17, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 17, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 18, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 18, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 17, 1
+{1: -inf, 2: -inf, 3: -inf, 4: 0.016}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 18, 1
+{1: 0.01744, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 18, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 19, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 18, 2
+{1: -inf, 2: 0.018, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 17, 2
+{1: -inf, 2: -inf, 3: 0.016, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 17, 1
+{1: -inf, 2: 0.018569600000000002, 3: -inf, 4: 0.016}
+Explored Actions:
+[4, 2]
+Current action: 3
+State coordinates: 17, 2
+{1: -inf, 2: -inf, 3: 0.016, 4: 0.017671264000000002}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 18, 2
+{1: 0.01844, 2: 0.018, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 19, 2
+{1: 0.01862, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 20, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 20, 3
+{1: 0.020710000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 21, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 22, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 23, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 24, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 23, 3
+{1: -inf, 2: -inf, 3: -inf, 4: 0.021}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 22, 3
+{1: -inf, 2: 0.022000000000000002, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 22, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 21, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 22, 2
+{1: -inf, 2: -inf, 3: -inf, 4: 0.019000000000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 22, 3
+{1: -inf, 2: 0.022000000000000002, 3: -inf, 4: 0.020000000000000004}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 22, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 21, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 21, 3
+{1: -inf, 2: 0.021, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 21, 4
+{1: -inf, 2: -inf, 3: -inf, 4: 0.021890000000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 21, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 21, 4
+{1: -inf, 2: -inf, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 20, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 19, 4
+{1: 0.020877751, 2: 0.021710000000000004, 3: 0.020710000000000003, 4: 0.019000000000000003}
+Explored Actions:
+[3, 2, 4, 1]
+Current action: 2
+State coordinates: 20, 4
+{1: 0.0209539, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 21, 4
+{1: 0.020000000000000004, 2: -inf, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 1]
+Current action: 2
+State coordinates: 22, 4
+{1: 0.021, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 21, 4
+{1: 0.020000000000000004, 2: 0.02389, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 2
+State coordinates: 22, 4
+{1: 0.021, 2: -inf, 3: 0.0231501, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 22, 3
+{1: -inf, 2: 0.022000000000000002, 3: 0.022000000000000002, 4: 0.020000000000000004}
+Explored Actions:
+[2, 4, 3]
+Current action: 1
+State coordinates: 21, 3
+{1: -inf, 2: 0.021, 3: 0.0229701, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 20, 3
+{1: 0.020710000000000003, 2: 0.020000000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 20, 2
+{1: -inf, 2: -inf, 3: 0.020863900000000005, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 21, 2
+{1: -inf, 2: 0.021710000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 20, 2
+{1: -inf, 2: 0.0209539, 3: 0.020863900000000005, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 1
+State coordinates: 19, 2
+{1: 0.01862, 2: 0.019000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 3
+State coordinates: 19, 3
+{1: -inf, 2: 0.019000000000000003, 3: 0.0209539, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 18, 3
+{1: 0.017, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 18, 2
+{1: 0.01844, 2: 0.018, 3: 0.0196758, 4: -inf}
+Explored Actions:
+[2, 1, 3]
+Current action: 4
+State coordinates: 18, 1
+{1: 0.01744, 2: -inf, 3: 0.017, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 18, 0
+{1: -inf, 2: -inf, 3: 0.017, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 18, 0
+{1: -inf, 2: -inf, 3: 0.017, 4: 0.01753}
+Explored Actions:
+[3, 4]
+Current action: 1
+State coordinates: 17, 0
+{1: -inf, 2: 0.016, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 17, 0
+{1: -inf, 2: 0.016, 3: -inf, 4: 0.01744}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 17, 1
+{1: -inf, 2: 0.018569600000000002, 3: 0.018590413760000004, 4: 0.016}
+Explored Actions:
+[4, 2, 3]
+Current action: 1
+State coordinates: 16, 1
+{1: -inf, 2: 0.016, 3: -inf, 4: 0.015}
+Explored Actions:
+[4, 2]
+Current action: 3
+State coordinates: 16, 2
+{1: 0.016, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 16, 1
+{1: -inf, 2: 0.016, 3: 0.01744, 4: 0.015}
+Explored Actions:
+[4, 2, 3]
+Current action: 1
+State coordinates: 15, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 16, 1
+{1: 0.015, 2: 0.016, 3: 0.01744, 4: 0.015}
+Explored Actions:
+[4, 2, 3, 1]
+Current action: 3
+State coordinates: 15, 1
+{1: -inf, 2: 0.0175696, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 15, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 14, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 14, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 14, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 14, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 15, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 16, 3
+{1: -inf, 2: 0.018787022, 3: 0.018773900000000003, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 1
+State coordinates: 15, 3
+{1: -inf, 2: 0.01869083198, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 14, 3
+{1: -inf, 2: 0.016, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 14, 2
+{1: -inf, 2: -inf, 3: 0.016, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 13, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 13, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 12, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 12, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 12, 1
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 12, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 11, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 12, 0
+{1: 0.013000000000000001, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 12, 0
+{1: 0.013000000000000001, 2: -inf, 3: -inf, 4: 0.015170000000000001}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 12, 0
+{1: 0.013000000000000001, 2: 0.015365300000000002, 3: -inf, 4: 0.015170000000000001}
+Explored Actions:
+[1, 4, 2]
+Current action: 3
+State coordinates: 12, 1
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[1, 4]
+Current action: 3
+State coordinates: 12, 2
+{1: -inf, 2: 0.015260000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 12, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 13, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 12, 3
+{1: -inf, 2: 0.015, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 11, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 10, 3
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 11, 3
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 11, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 11, 3
+{1: 0.014000000000000002, 2: -inf, 3: 0.015, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 11, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 11, 3
+{1: 0.014000000000000002, 2: -inf, 3: 0.015, 4: 0.014000000000000002}
+Explored Actions:
+[1, 3, 4]
+Current action: 2
+State coordinates: 12, 3
+{1: 0.014000000000000002, 2: 0.015, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 12, 2
+{1: 0.015, 2: 0.015260000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 12, 3
+{1: 0.014000000000000002, 2: 0.015, 3: -inf, 4: 0.015373400000000002}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 12, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 11, 4
+{1: -inf, 2: -inf, 3: -inf, 4: 0.015350000000000003}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 12, 4
+{1: -inf, 2: -inf, 3: -inf, 4: 0.0163815}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 12, 3
+{1: 0.014000000000000002, 2: 0.015, 3: 0.015, 4: 0.015373400000000002}
+Explored Actions:
+[2, 1, 4, 3]
+Current action: 4
+State coordinates: 12, 2
+{1: 0.015, 2: 0.015260000000000003, 3: 0.016383606000000002, 4: -inf}
+Explored Actions:
+[2, 1, 3]
+Current action: 4
+State coordinates: 12, 1
+{1: 0.014000000000000002, 2: -inf, 3: 0.015373400000000002, 4: 0.014000000000000002}
+Explored Actions:
+[1, 4, 3]
+Current action: 2
+State coordinates: 13, 1
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 13, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 13, 1
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 13, 0
+{1: 0.015260000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 14, 0
+{1: -inf, 2: -inf, 3: 0.015, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 15, 0
+{1: -inf, 2: -inf, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 16, 0
+{1: -inf, 2: -inf, 3: 0.01735, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 15, 0
+{1: -inf, 2: 0.0165615, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[4, 2]
+Current action: 1
+State coordinates: 14, 0
+{1: -inf, 2: 0.01626, 3: 0.015, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 1
+State coordinates: 13, 0
+{1: 0.015260000000000003, 2: 0.015350000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 13, 0
+{1: 0.015260000000000003, 2: 0.015350000000000003, 3: -inf, 4: 0.015381500000000001}
+Explored Actions:
+[1, 2, 4]
+Current action: 3
+State coordinates: 13, 1
+{1: 0.014000000000000002, 2: 0.015373400000000002, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[1, 4, 2]
+Current action: 3
+State coordinates: 13, 2
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 13, 1
+{1: 0.014000000000000002, 2: 0.015373400000000002, 3: 0.01626, 4: 0.014000000000000002}
+Explored Actions:
+[1, 4, 2, 3]
+Current action: 3
+State coordinates: 13, 2
+{1: 0.014000000000000002, 2: -inf, 3: -inf, 4: 0.015463400000000002}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 14, 2
+{1: 0.015, 2: -inf, 3: 0.016, 4: -inf}
+Explored Actions:
+[3, 1]
+Current action: 2
+State coordinates: 14, 1
+{1: -inf, 2: 0.015, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 14, 2
+{1: 0.015, 2: 0.01635, 3: 0.016, 4: -inf}
+Explored Actions:
+[3, 1, 2]
+Current action: 4
+State coordinates: 14, 1
+{1: -inf, 2: 0.015, 3: 0.0164715, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 4
+State coordinates: 15, 1
+{1: -inf, 2: 0.0175696, 3: -inf, 4: 0.015}
+Explored Actions:
+[2, 4]
+Current action: 1
+State coordinates: 14, 1
+{1: -inf, 2: 0.015, 3: 0.0164715, 4: 0.016581264000000002}
+Explored Actions:
+[2, 3, 4]
+Current action: 1
+State coordinates: 14, 2
+{1: 0.015, 2: 0.01635, 3: 0.016, 4: 0.016482435}
+Explored Actions:
+[3, 1, 2, 4]
+Current action: 4
+State coordinates: 14, 1
+{1: 0.01648341915, 2: 0.015, 3: 0.0164715, 4: 0.016581264000000002}
+Explored Actions:
+[2, 3, 4, 1]
+Current action: 4
+State coordinates: 14, 0
+{1: 0.015381500000000001, 2: 0.01626, 3: 0.015, 4: -inf}
+Explored Actions:
+[3, 2, 1]
+Current action: 4
+State coordinates: 14, 0
+{1: 0.015381500000000001, 2: 0.01626, 3: 0.015, 4: 0.015463400000000002}
+Explored Actions:
+[3, 2, 1, 4]
+Current action: 2
+State coordinates: 15, 0
+{1: 0.015463400000000002, 2: 0.0165615, 3: -inf, 4: 0.014000000000000002}
+Explored Actions:
+[4, 2, 1]
+Current action: 3
+State coordinates: 15, 1
+{1: 0.01649231376, 2: 0.0175696, 3: -inf, 4: 0.015}
+Explored Actions:
+[2, 4, 1]
+Current action: 3
+State coordinates: 15, 2
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 16, 2
+{1: 0.016, 2: -inf, 3: -inf, 4: 0.0175696}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 16, 3
+{1: 0.0176821748782, 2: 0.018787022, 3: 0.018773900000000003, 4: -inf}
+Explored Actions:
+[3, 2, 1]
+Current action: 4
+State coordinates: 16, 2
+{1: 0.016, 2: 0.01869083198, 3: -inf, 4: 0.0175696}
+Explored Actions:
+[1, 4, 2]
+Current action: 3
+State coordinates: 16, 3
+{1: 0.0176821748782, 2: 0.018787022, 3: 0.018773900000000003, 4: 0.0176821748782}
+Explored Actions:
+[3, 2, 1, 4]
+Current action: 2
+State coordinates: 17, 3
+{1: 0.017, 2: 0.0198558, 3: -inf, 4: 0.017}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 18, 3
+{1: 0.017, 2: -inf, 3: -inf, 4: 0.018770822000000003}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 18, 2
+{1: 0.01844, 2: 0.018, 3: 0.0196758, 4: 0.018569600000000002}
+Explored Actions:
+[2, 1, 3, 4]
+Current action: 3
+State coordinates: 18, 3
+{1: 0.017, 2: 0.018770822000000003, 3: -inf, 4: 0.018770822000000003}
+Explored Actions:
+[1, 4, 2]
+Current action: 3
+State coordinates: 19, 3
+{1: 0.019530000000000002, 2: 0.019000000000000003, 3: 0.0209539, 4: -inf}
+Explored Actions:
+[2, 3, 1]
+Current action: 4
+State coordinates: 19, 2
+{1: 0.01862, 2: 0.019000000000000003, 3: 0.020885851, 4: -inf}
+Explored Actions:
+[1, 2, 3]
+Current action: 4
+State coordinates: 18, 2
+{1: 0.01844, 2: 0.018, 3: 0.018698796990000002, 4: 0.018569600000000002}
+Explored Actions:
+[2, 1, 3, 4]
+Current action: 3
+State coordinates: 17, 2
+{1: -inf, 2: 0.018659600000000002, 3: 0.016, 4: 0.017671264000000002}
+Explored Actions:
+[3, 4, 2]
+Current action: 1
+State coordinates: 16, 2
+{1: 0.016, 2: 0.01869083198, 3: 0.01869083198, 4: 0.0175696}
+Explored Actions:
+[1, 4, 2, 3]
+Current action: 3
+State coordinates: 15, 2
+{1: -inf, 2: -inf, 3: -inf, 4: 0.017581264000000003}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 14, 2
+{1: 0.015, 2: 0.01635, 3: 0.016, 4: 0.01566325263}
+Explored Actions:
+[3, 1, 2, 4]
+Current action: 2
+State coordinates: 15, 2
+{1: 0.0164715, 2: -inf, 3: -inf, 4: 0.017581264000000003}
+Explored Actions:
+[4, 1]
+Current action: 2
+State coordinates: 16, 2
+{1: 0.016, 2: 0.01869083198, 3: 0.017202031271, 4: 0.0175696}
+Explored Actions:
+[1, 4, 2, 3]
+Current action: 2
+State coordinates: 16, 1
+{1: 0.015, 2: 0.016, 3: 0.016138632, 4: 0.015}
+Explored Actions:
+[4, 2, 3, 1]
+Current action: 3
+State coordinates: 16, 2
+{1: 0.016, 2: 0.017137112831, 3: 0.017202031271, 4: 0.0175696}
+Explored Actions:
+[1, 4, 2, 3]
+Current action: 4
+State coordinates: 16, 1
+{1: 0.015, 2: 0.016, 3: 0.010702010933333334, 4: 0.015}
+Explored Actions:
+[4, 2, 3, 1]
+Current action: 2
+State coordinates: 17, 1
+{1: 0.01744, 2: 0.018569600000000002, 3: 0.018590413760000004, 4: 0.016}
+Explored Actions:
+[4, 2, 3, 1]
+Current action: 3
+State coordinates: 17, 2
+{1: 0.0176821748782, 2: 0.018659600000000002, 3: 0.016, 4: 0.017671264000000002}
+Explored Actions:
+[3, 4, 2, 1]
+Current action: 2
+State coordinates: 18, 2
+{1: 0.01844, 2: 0.018, 3: 0.011836093763666669, 4: 0.018569600000000002}
+Explored Actions:
+[2, 1, 3, 4]
+Current action: 4
+State coordinates: 18, 1
+{1: 0.01744, 2: -inf, 3: 0.017, 4: 0.01753}
+Explored Actions:
+[1, 3, 4]
+Current action: 2
+State coordinates: 19, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 18, 1
+{1: 0.01744, 2: 0.017, 3: 0.017, 4: 0.01753}
+Explored Actions:
+[1, 3, 4, 2]
+Current action: 4
+State coordinates: 19, 1
+{1: 0.018577700000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 20, 1
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 20, 2
+{1: 0.019710000000000002, 2: 0.0209539, 3: 0.020863900000000005, 4: -inf}
+Explored Actions:
+[3, 2, 1]
+Current action: 4
+State coordinates: 20, 1
+{1: -inf, 2: -inf, 3: 0.020885851, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 20, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 20, 0
+{1: -inf, 2: -inf, 3: -inf, 4: 0.017}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 19, 0
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 19, 1
+{1: 0.018577700000000003, 2: 0.018, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 3
+State coordinates: 19, 2
+{1: 0.01862, 2: 0.019000000000000003, 3: 0.020885851, 4: 0.018682891729100003}
+Explored Actions:
+[1, 2, 3, 4]
+Current action: 3
+State coordinates: 19, 3
+{1: 0.019530000000000002, 2: 0.019000000000000003, 3: 0.0209539, 4: 0.01987972659}
+Explored Actions:
+[2, 3, 1, 4]
+Current action: 3
+State coordinates: 19, 4
+{1: 0.020877751, 2: 0.020712425500000003, 3: 0.020710000000000003, 4: 0.019000000000000003}
+Explored Actions:
+[3, 2, 4, 1]
+Current action: 1
+State coordinates: 18, 4
+{1: 0.0198558, 2: 0.020863900000000005, 3: 0.019000000000000003, 4: 0.018}
+Explored Actions:
+[3, 4, 2, 1]
+Current action: 2
+State coordinates: 19, 4
+{1: 0.019833863450000003, 2: 0.020712425500000003, 3: 0.020710000000000003, 4: 0.019000000000000003}
+Explored Actions:
+[3, 2, 4, 1]
+Current action: 2
+State coordinates: 20, 4
+{1: 0.0209539, 2: -inf, 3: 0.02298, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 21, 4
+{1: 0.020000000000000004, 2: 0.022792254500000005, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 2
+State coordinates: 21, 3
+{1: 0.020863900000000005, 2: 0.021, 3: 0.0229701, 4: -inf}
+Explored Actions:
+[2, 3, 1]
+Current action: 4
+State coordinates: 21, 2
+{1: 0.020885851, 2: 0.021710000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 21, 3
+{1: 0.020863900000000005, 2: 0.021, 3: 0.0229701, 4: 0.0209539}
+Explored Actions:
+[2, 3, 1, 4]
+Current action: 3
+State coordinates: 21, 4
+{1: 0.020000000000000004, 2: 0.014193446016666672, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 3
+State coordinates: 21, 5
+{1: -inf, 2: -inf, 3: -inf, 4: 0.02298}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 22, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 23, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 24, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 25, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 26, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 27, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 10
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 9
+{1: -inf, 2: -inf, 3: 0.028000000000000004, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 27, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 28, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 27, 7
+{1: -inf, 2: 0.023000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 27, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.024}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 28, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 29, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 29, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 29, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.022000000000000002}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 28, 8
+{1: -inf, 2: 0.023000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 27, 8
+{1: -inf, 2: 0.024, 3: -inf, 4: 0.024}
+Explored Actions:
+[4, 2]
+Current action: 1
+State coordinates: 26, 8
+{1: -inf, 2: -inf, 3: 0.028000000000000004, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 25, 8
+{1: -inf, 2: 0.026000000000000002, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 25, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 24, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 24, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.028000000000000004}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 24, 7
+{1: -inf, 2: -inf, 3: 0.028999999999999998, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 24, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 24, 6
+{1: -inf, 2: 0.025, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 23, 6
+{1: -inf, 2: -inf, 3: 0.026000000000000002, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 24, 6
+{1: 0.02734, 2: 0.025, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 24, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 25, 6
+{1: 0.028250000000000004, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 26, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 7
+{1: 0.026000000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 26, 8
+{1: 0.030340000000000002, 2: -inf, 3: 0.028000000000000004, 4: -inf}
+Explored Actions:
+[3, 1]
+Current action: 4
+State coordinates: 26, 7
+{1: 0.026000000000000002, 2: -inf, 3: 0.028730600000000002, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 27, 7
+{1: -inf, 2: 0.023000000000000003, 3: 0.027160000000000004, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 4
+State coordinates: 27, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 28, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 7
+{1: 0.02607, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 28, 8
+{1: 0.027160000000000004, 2: 0.023000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 28, 7
+{1: 0.02607, 2: 0.026444400000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 28, 6
+{1: -inf, 2: -inf, 3: 0.025346300000000002, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 28, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 6
+{1: 0.021, 2: -inf, 3: 0.025346300000000002, 4: -inf}
+Explored Actions:
+[3, 1]
+Current action: 2
+State coordinates: 29, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 30, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 31, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 31, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 32, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 31, 5
+{1: -inf, 2: 0.018, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 30, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 29, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 29, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 29, 5
+{1: -inf, 2: -inf, 3: -inf, 4: 0.019000000000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 29, 6
+{1: -inf, 2: -inf, 3: 0.020000000000000004, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 29, 5
+{1: -inf, 2: -inf, 3: 0.0228, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 28, 5
+{1: -inf, 2: -inf, 3: 0.024281167000000003, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 28, 4
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 5
+{1: -inf, 2: -inf, 3: 0.024281167000000003, 4: 0.020000000000000004}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 29, 5
+{1: 0.023185305030000002, 2: -inf, 3: 0.0228, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3, 1]
+Current action: 2
+State coordinates: 30, 5
+{1: 0.020000000000000004, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 30, 6
+{1: -inf, 2: 0.019000000000000003, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 30, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 29, 7
+{1: -inf, 2: -inf, 3: 0.024980000000000002, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 29, 8
+{1: 0.02607, 2: -inf, 3: -inf, 4: 0.022000000000000002}
+Explored Actions:
+[4, 1]
+Current action: 2
+State coordinates: 30, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 30, 7
+{1: -inf, 2: -inf, 3: -inf, 4: 0.0242482}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 31, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 31, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 32, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 31, 8
+{1: -inf, 2: 0.020000000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 30, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.023182338}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 29, 8
+{1: 0.02607, 2: 0.022000000000000002, 3: -inf, 4: 0.022000000000000002}
+Explored Actions:
+[4, 1, 2]
+Current action: 3
+State coordinates: 30, 8
+{1: 0.025346300000000002, 2: -inf, 3: -inf, 4: 0.023182338}
+Explored Actions:
+[4, 1]
+Current action: 2
+State coordinates: 31, 8
+{1: 0.024086410420000003, 2: 0.020000000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 4
+State coordinates: 30, 8
+{1: 0.025346300000000002, 2: 0.023167776937800002, 3: -inf, 4: 0.023182338}
+Explored Actions:
+[4, 1, 2]
+Current action: 3
+State coordinates: 29, 8
+{1: 0.02607, 2: 0.022000000000000002, 3: 0.024281167000000003, 4: 0.022000000000000002}
+Explored Actions:
+[4, 1, 2, 3]
+Current action: 1
+State coordinates: 29, 7
+{1: -inf, 2: 0.025346300000000002, 3: 0.024980000000000002, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 29, 6
+{1: -inf, 2: -inf, 3: 0.020000000000000004, 4: 0.022052000000000002}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 30, 6
+{1: -inf, 2: 0.019000000000000003, 3: 0.021, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 30, 7
+{1: -inf, 2: 0.020000000000000004, 3: -inf, 4: 0.0242482}
+Explored Actions:
+[4, 2]
+Current action: 1
+State coordinates: 29, 7
+{1: -inf, 2: 0.025346300000000002, 3: 0.024980000000000002, 4: 0.02298468}
+Explored Actions:
+[3, 2, 4]
+Current action: 1
+State coordinates: 28, 7
+{1: 0.02607, 2: 0.026444400000000003, 3: -inf, 4: 0.024281167000000003}
+Explored Actions:
+[1, 2, 4]
+Current action: 3
+State coordinates: 28, 8
+{1: 0.027160000000000004, 2: 0.023000000000000003, 3: -inf, 4: 0.025379996000000002}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 27, 8
+{1: 0.028520000000000004, 2: 0.024, 3: -inf, 4: 0.024}
+Explored Actions:
+[4, 2, 1]
+Current action: 3
+State coordinates: 26, 8
+{1: 0.030340000000000002, 2: -inf, 3: 0.028000000000000004, 4: 0.027585754000000004}
+Explored Actions:
+[3, 1, 4]
+Current action: 2
+State coordinates: 26, 7
+{1: 0.026000000000000002, 2: 0.026444400000000003, 3: 0.028730600000000002, 4: -inf}
+Explored Actions:
+[1, 3, 2]
+Current action: 4
+State coordinates: 26, 6
+{1: -inf, 2: -inf, 3: 0.02734, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 27, 6
+{1: -inf, 2: 0.022000000000000002, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 26, 6
+{1: -inf, 2: 0.024980000000000002, 3: 0.02734, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 26, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 6
+{1: -inf, 2: 0.024980000000000002, 3: 0.02734, 4: 0.023000000000000003}
+Explored Actions:
+[3, 2, 4]
+Current action: 1
+State coordinates: 25, 6
+{1: 0.028250000000000004, 2: 0.024, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 25, 5
+{1: -inf, 2: -inf, 3: 0.027542500000000004, 4: -inf}
+Explored Actions:
+[3]
+Current action: 1
+State coordinates: 24, 5
+{1: -inf, 2: 0.024, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 24, 6
+{1: 0.02734, 2: 0.025, 3: -inf, 4: 0.025}
+Explored Actions:
+[2, 1, 4]
+Current action: 3
+State coordinates: 23, 6
+{1: -inf, 2: 0.028460600000000003, 3: 0.026000000000000002, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 23, 5
+{1: -inf, 2: 0.025, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 22, 5
+{1: -inf, 2: 0.024, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 21, 5
+{1: -inf, 2: 0.023000000000000003, 3: -inf, 4: 0.02298}
+Explored Actions:
+[4, 2]
+Current action: 3
+State coordinates: 21, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 20, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 20, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 20, 7
+{1: -inf, 2: -inf, 3: -inf, 4: 0.022000000000000002}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 21, 7
+{1: -inf, 2: -inf, 3: -inf, 4: 0.023000000000000003}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 20, 7
+{1: -inf, 2: -inf, 3: 0.02607, 4: 0.022000000000000002}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 20, 6
+{1: -inf, 2: -inf, 3: 0.024980000000000002, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 20, 5
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 21, 5
+{1: -inf, 2: 0.023000000000000003, 3: 0.023000000000000003, 4: 0.02298}
+Explored Actions:
+[4, 2, 3]
+Current action: 1
+State coordinates: 20, 5
+{1: -inf, 2: 0.02407, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 21, 5
+{1: 0.0231663, 2: 0.023000000000000003, 3: 0.023000000000000003, 4: 0.02298}
+Explored Actions:
+[4, 2, 3, 1]
+Current action: 1
+State coordinates: 20, 5
+{1: -inf, 2: 0.02407, 3: 0.024084967000000002, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 4
+State coordinates: 19, 5
+{1: 0.0209539, 2: -inf, 3: 0.021, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3, 1]
+Current action: 2
+State coordinates: 19, 4
+{1: 0.019833863450000003, 2: 0.013569794316666668, 3: 0.020710000000000003, 4: 0.019000000000000003}
+Explored Actions:
+[3, 2, 4, 1]
+Current action: 3
+State coordinates: 19, 5
+{1: 0.0209539, 2: 0.020863900000000005, 3: 0.021, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 3
+State coordinates: 19, 6
+{1: -inf, 2: -inf, 3: -inf, 4: 0.021890000000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 20, 7
+{1: 0.0242482, 2: -inf, 3: 0.02607, 4: 0.022000000000000002}
+Explored Actions:
+[4, 3, 1]
+Current action: 2
+State coordinates: 21, 7
+{1: 0.025346300000000002, 2: -inf, 3: -inf, 4: 0.023000000000000003}
+Explored Actions:
+[4, 1]
+Current action: 2
+State coordinates: 22, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 22, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 22, 5
+{1: 0.02407, 2: 0.024, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 22, 6
+{1: -inf, 2: -inf, 3: -inf, 4: 0.025166300000000003}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 21, 6
+{1: -inf, 2: 0.024, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 21, 7
+{1: 0.025346300000000002, 2: 0.025, 3: -inf, 4: 0.023000000000000003}
+Explored Actions:
+[4, 1, 2]
+Current action: 3
+State coordinates: 22, 7
+{1: -inf, 2: -inf, 3: -inf, 4: 0.024}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 23, 7
+{1: -inf, 2: 0.028000000000000004, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 23, 6
+{1: -inf, 2: 0.028460600000000003, 3: 0.026000000000000002, 4: 0.026250000000000002}
+Explored Actions:
+[3, 2, 4]
+Current action: 1
+State coordinates: 22, 6
+{1: 0.025160000000000002, 2: -inf, 3: -inf, 4: 0.025166300000000003}
+Explored Actions:
+[4, 1]
+Current action: 3
+State coordinates: 22, 7
+{1: -inf, 2: 0.028520000000000004, 3: -inf, 4: 0.024}
+Explored Actions:
+[4, 2]
+Current action: 1
+State coordinates: 21, 7
+{1: 0.025346300000000002, 2: 0.025, 3: 0.027160000000000004, 4: 0.023000000000000003}
+Explored Actions:
+[4, 1, 2, 3]
+Current action: 3
+State coordinates: 21, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 20, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 19, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 7
+{1: -inf, 2: 0.025346300000000002, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 19, 6
+{1: -inf, 2: -inf, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3]
+Current action: 2
+State coordinates: 20, 6
+{1: -inf, 2: -inf, 3: 0.024980000000000002, 4: 0.021}
+Explored Actions:
+[3, 4]
+Current action: 1
+State coordinates: 19, 6
+{1: -inf, 2: 0.0242482, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 2]
+Current action: 1
+State coordinates: 18, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 17, 6
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 18, 6
+{1: 0.019000000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 18, 5
+{1: 0.019000000000000003, 2: -inf, 3: 0.020000000000000004, 4: 0.020710000000000003}
+Explored Actions:
+[1, 4, 3]
+Current action: 2
+State coordinates: 19, 5
+{1: 0.0209539, 2: 0.020863900000000005, 3: 0.02093505, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 1
+State coordinates: 18, 5
+{1: 0.019000000000000003, 2: 0.021885851, 3: 0.020000000000000004, 4: 0.020710000000000003}
+Explored Actions:
+[1, 4, 3, 2]
+Current action: 2
+State coordinates: 19, 5
+{1: 0.019914118295, 2: 0.020863900000000005, 3: 0.02093505, 4: 0.019000000000000003}
+Explored Actions:
+[4, 3, 1, 2]
+Current action: 3
+State coordinates: 19, 6
+{1: 0.020000000000000004, 2: 0.0242482, 3: 0.022000000000000002, 4: 0.021890000000000003}
+Explored Actions:
+[4, 3, 2, 1]
+Current action: 2
+State coordinates: 19, 7
+{1: -inf, 2: 0.025346300000000002, 3: -inf, 4: 0.02298}
+Explored Actions:
+[2, 4]
+Current action: 1
+State coordinates: 18, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 17, 7
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 17, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 15, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 16, 8
+{1: 0.019000000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 16, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 16, 8
+{1: 0.019000000000000003, 2: -inf, 3: 0.021, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 17, 8
+{1: 0.020000000000000004, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 18, 8
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 18, 7
+{1: 0.020000000000000004, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 18, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.0228}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 8
+{1: -inf, 2: -inf, 3: -inf, 4: 0.024281167000000003}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 19, 8
+{1: -inf, 2: -inf, 3: 0.024, 4: 0.024281167000000003}
+Explored Actions:
+[4, 3]
+Current action: 2
+State coordinates: 20, 8
+{1: 0.023000000000000003, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 20, 9
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 20, 10
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 19, 10
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 18, 10
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 19, 10
+{1: 0.024, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 19, 9
+{1: -inf, 2: -inf, 3: -inf, 4: 0.02518530503}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 19, 10
+{1: 0.024, 2: -inf, 3: -inf, 4: 0.0262666774527}
+Explored Actions:
+[1, 4]
+Current action: 2
+State coordinates: 20, 10
+{1: -inf, 2: -inf, 3: 0.025, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 21, 10
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 21, 11
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 21, 12
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 22, 12
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 22, 13
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 13
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 13
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 13
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 25, 14
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 25, 13
+{1: -inf, 2: -inf, 3: 0.042, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 24, 13
+{1: -inf, 2: 0.038000000000000006, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 23, 13
+{1: -inf, 2: 0.042, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 23, 14
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 15
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 23, 16
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 16
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 24, 17
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 17
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 17
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 27, 17
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 16
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 16
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 16
+{1: 0.045000000000000005, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 27, 17
+{1: -inf, 2: -inf, 3: -inf, 4: 0.042}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 27, 18
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 27, 17
+{1: -inf, 2: -inf, 3: 0.05, 4: 0.042}
+Explored Actions:
+[4, 3]
+Current action: 1
+State coordinates: 26, 17
+{1: -inf, 2: 0.045000000000000005, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 26, 18
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 26, 17
+{1: -inf, 2: 0.045000000000000005, 3: 0.05600000000000001, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 26, 18
+{1: -inf, 2: 0.055040000000000006, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 27, 18
+{1: -inf, 2: 0.0495, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 26, 18
+{1: -inf, 2: 0.055040000000000006, 3: -inf, 4: 0.054455}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 26, 19
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 26, 18
+{1: -inf, 2: 0.055040000000000006, 3: 0.063, 4: 0.054455}
+Explored Actions:
+[2, 4, 3]
+Current action: 1
+State coordinates: 25, 18
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 24, 18
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 23, 18
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 24, 18
+{1: 0.063, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 24, 19
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 23, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 24, 20
+{1: 0.083, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 23, 20
+{1: -inf, 2: -inf, 3: -inf, 4: 0.10747000000000001}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 24, 20
+{1: 0.083, 2: -inf, 3: 0.0926723, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 25, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 26, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 21
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 26, 20
+{1: -inf, 2: -inf, 3: 0.083, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 26, 19
+{1: -inf, 2: -inf, 3: -inf, 4: 0.06167}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 26, 20
+{1: -inf, 2: -inf, 3: 0.083, 4: 0.0685503}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 27, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 20
+{1: -inf, 2: 0.063, 3: 0.083, 4: 0.0685503}
+Explored Actions:
+[3, 4, 2]
+Current action: 1
+State coordinates: 25, 20
+{1: -inf, 2: 0.071, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 4
+State coordinates: 25, 19
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 25, 20
+{1: -inf, 2: 0.071, 3: -inf, 4: 0.071}
+Explored Actions:
+[2, 4]
+Current action: 3
+State coordinates: 25, 21
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 24, 21
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 23, 21
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 23, 20
+{1: -inf, 2: 0.108340507, 3: -inf, 4: 0.10747000000000001}
+Explored Actions:
+[4, 2]
+Current action: 1
+State coordinates: 22, 20
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 23, 20
+{1: 0.071, 2: 0.108340507, 3: -inf, 4: 0.10747000000000001}
+Explored Actions:
+[4, 2, 1]
+Current action: 3
+State coordinates: 23, 21
+{1: -inf, 2: -inf, 3: -inf, 4: 0.09275064563}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 23, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 22, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 23, 22
+{1: 0.1, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 23, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 24, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 24, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 25, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 25, 21
+{1: 0.125, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 25, 22
+{1: 0.11125000000000002, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 26, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 26, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 27, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 23
+{1: -inf, 2: 0.1, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 26, 22
+{1: -inf, 2: -inf, 3: 0.125, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 27, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 21
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 22
+{1: -inf, 2: -inf, 3: -inf, 4: 0.071}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 27, 23
+{1: 0.134, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 27, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 27, 23
+{1: 0.134, 2: -inf, 3: 0.125, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 2
+State coordinates: 28, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 24
+{1: -inf, 2: -inf, 3: -inf, 4: 0.11206}
+Explored Actions:
+[4]
+Current action: 1
+State coordinates: 26, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 27, 24
+{1: 0.167, 2: -inf, 3: -inf, 4: 0.11206}
+Explored Actions:
+[4, 1]
+Current action: 3
+State coordinates: 27, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 25, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 25, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 25, 25
+{1: -inf, 2: -inf, 3: -inf, 4: 0.25}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 25, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 26, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 27, 28
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 26, 28
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 26, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 26, 26
+{1: -inf, 2: -inf, 3: 0.083, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 27, 26
+{1: -inf, 2: -inf, 3: 0.071, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 27, 25
+{1: 0.125, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 4
+State coordinates: 27, 24
+{1: 0.167, 2: -inf, 3: 0.1, 4: 0.11206}
+Explored Actions:
+[4, 1, 3]
+Current action: 2
+State coordinates: 28, 24
+{1: -inf, 2: -inf, 3: 0.1350854, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 29, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 28, 24
+{1: -inf, 2: 0.083, 3: 0.1350854, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 28, 23
+{1: -inf, 2: -inf, 3: 0.1, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 29, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 29, 24
+{1: 0.112157686, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 30, 24
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 30, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 31, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 31, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 30, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 30, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 31, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 30, 27
+{1: -inf, 2: 0.045000000000000005, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 29, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 28, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 28
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 28, 27
+{1: -inf, 2: -inf, 3: 0.05600000000000001, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 28, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 28, 27
+{1: -inf, 2: -inf, 3: 0.05600000000000001, 4: 0.071}
+Explored Actions:
+[3, 4]
+Current action: 2
+State coordinates: 29, 27
+{1: 0.063, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 29, 28
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 29, 27
+{1: 0.063, 2: -inf, 3: 0.05, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 29, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 30, 26
+{1: -inf, 2: -inf, 3: 0.05, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 31, 26
+{1: 0.05600000000000001, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 32, 26
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 32, 27
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 31, 27
+{1: 0.05405, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 32, 27
+{1: 0.049864500000000006, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 31, 27
+{1: 0.05405, 2: 0.046487805, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 31, 26
+{1: 0.05600000000000001, 2: -inf, 3: 0.045000000000000005, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 31, 25
+{1: -inf, 2: -inf, 3: 0.05, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 30, 25
+{1: -inf, 2: 0.05600000000000001, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 30, 26
+{1: -inf, 2: 0.055040000000000006, 3: 0.05, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 30, 25
+{1: -inf, 2: 0.05600000000000001, 3: 0.06095360000000001, 4: -inf}
+Explored Actions:
+[2, 3]
+Current action: 1
+State coordinates: 29, 25
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 29, 24
+{1: 0.112157686, 2: 0.071, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 3
+State coordinates: 29, 25
+{1: -inf, 2: -inf, 3: -inf, 4: 0.09309419174}
+Explored Actions:
+[4]
+Current action: 3
+State coordinates: 29, 26
+{1: -inf, 2: 0.06050000000000001, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 3
+State coordinates: 29, 27
+{1: 0.063, 2: -inf, 3: 0.05, 4: 0.063}
+Explored Actions:
+[1, 3, 4]
+Current action: 2
+State coordinates: 30, 27
+{1: 0.05600000000000001, 2: 0.045000000000000005, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 29, 27
+{1: 0.063, 2: 0.055040000000000006, 3: 0.05, 4: 0.063}
+Explored Actions:
+[1, 3, 4, 2]
+Current action: 4
+State coordinates: 30, 27
+{1: 0.05600000000000001, 2: 0.045000000000000005, 3: 0.06167, 4: -inf}
+Explored Actions:
+[2, 1, 3]
+Current action: 4
+State coordinates: 30, 26
+{1: -inf, 2: 0.055040000000000006, 3: 0.05, 4: 0.06848582400000001}
+Explored Actions:
+[3, 2, 4]
+Current action: 1
+State coordinates: 30, 25
+{1: 0.071, 2: 0.05600000000000001, 3: 0.06095360000000001, 4: -inf}
+Explored Actions:
+[2, 3, 1]
+Current action: 4
+State coordinates: 30, 24
+{1: -inf, 2: -inf, 3: 0.063, 4: -inf}
+Explored Actions:
+[3]
+Current action: 2
+State coordinates: 30, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 29, 23
+{1: -inf, 2: -inf, 3: 0.09309419174, 4: -inf}
+Explored Actions:
+[3]
+Current action: 4
+State coordinates: 29, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 28, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 1
+State coordinates: 27, 22
+{1: -inf, 2: -inf, 3: 0.11206, 4: 0.071}
+Explored Actions:
+[4, 3]
+Current action: 2
+State coordinates: 28, 22
+{1: 0.0930854, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 2
+State coordinates: 29, 22
+{1: -inf, 2: -inf, 3: -inf, 4: 0.071}
+Explored Actions:
+[4]
+Current action: 2
+State coordinates: 30, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 2
+State coordinates: 31, 22
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 31, 23
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 3
+State coordinates: 30, 23
+{1: 0.07937847725660001, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 30, 24
+{1: -inf, 2: 0.063, 3: 0.063, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 30, 23
+{1: 0.07937847725660001, 2: -inf, 3: 0.07667, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 29, 23
+{1: -inf, 2: -inf, 3: 0.09309419174, 4: 0.063}
+Explored Actions:
+[3, 4]
+Current action: 1
+State coordinates: 28, 23
+{1: -inf, 2: 0.071, 3: 0.1, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 4
+State coordinates: 27, 23
+{1: 0.134, 2: 0.083, 3: 0.125, 4: -inf}
+Explored Actions:
+[1, 3, 2]
+Current action: 4
+State coordinates: 27, 22
+{1: -inf, 2: 0.079377686, 3: 0.11206, 4: 0.071}
+Explored Actions:
+[4, 3, 2]
+Current action: 1
+State coordinates: 26, 22
+{1: -inf, 2: 0.083, 3: 0.125, 4: -inf}
+Explored Actions:
+[3, 2]
+Current action: 1
+State coordinates: 25, 22
+{1: 0.11125000000000002, 2: 0.1, 3: -inf, 4: -inf}
+Explored Actions:
+[1, 2]
+Current action: 4
+State coordinates: 25, 21
+{1: 0.125, 2: -inf, 3: 0.1350125, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4
+State coordinates: 25, 20
+{1: -inf, 2: 0.071, 3: 0.1, 4: 0.071}
+Explored Actions:
+[2, 4, 3]
+Current action: 1
+State coordinates: 24, 20
+{1: 0.083, 2: 0.083, 3: 0.0926723, 4: -inf}
+Explored Actions:
+[1, 3, 2]
+Current action: 4
+State coordinates: 24, 19
+{1: -inf, 2: 0.1, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 23, 19
+{1: -inf, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[]
+Current action: 4
+State coordinates: 24, 19
+{1: 0.071, 2: 0.1, 3: -inf, 4: -inf}
+Explored Actions:
+[2, 1]
+Current action: 3
+State coordinates: 24, 20
+{1: 0.083, 2: 0.083, 3: 0.0926723, 4: 0.092}
+Explored Actions:
+[1, 3, 2, 4]
+Current action: 3
+State coordinates: 24, 21
+{1: 0.1, 2: -inf, 3: -inf, 4: -inf}
+Explored Actions:
+[1]
+Current action: 3
+State coordinates: 24, 22
+{1: -inf, 2: 0.125, 3: -inf, 4: -inf}
+Explored Actions:
+[2]
+Current action: 1
+State coordinates: 23, 22
+{1: 0.1, 2: -inf, 3: 0.167, 4: -inf}
+Explored Actions:
+[1, 3]
+Current action: 4

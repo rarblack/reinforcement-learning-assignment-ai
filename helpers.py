@@ -15,6 +15,8 @@ def updateQ(s, action, nextState):
     #the FORMULA of Q-learning Ndates
     value = 0
     q_value = s.get_actionQvalue(action)
+    n_action = s.get_numberAction(action)
+
     if (q_value == float("-inf")):
         q_value = 0
 
@@ -22,24 +24,25 @@ def updateQ(s, action, nextState):
         value = (1 - alpha) * q_value + alpha * (s.getReward() + gamma * getMaxQ(nextState))
     else:
         value = (1 - alpha) * q_value + alpha * s.getReward()
+        n_action = 1
  
     if (action == State.W):
-        s.add_actionQValue(State.W, value)
+        s.add_actionQValue(State.W, value/n_action)
         if (State.W not in s.get_exploredActions()):
             s.add_exploredAction(State.W)
         
     elif (action == State.E):
-        s.add_actionQValue(State.E, value)
+        s.add_actionQValue(State.E, value/n_action)
         if (State.E not in s.get_exploredActions()):
             s.add_exploredAction(State.E)
         
     elif (action == State.N):
-        s.add_actionQValue(State.N, value)
+        s.add_actionQValue(State.N, value/n_action)
         if (State.N not in s.get_exploredActions()):
             s.add_exploredAction(State.N)
         
     elif (action == State.S):
-        s.add_actionQValue(State.S, value)
+        s.add_actionQValue(State.S, value/n_action)
         if (State.S not in s.get_exploredActions()):
             s.add_exploredAction(State.S)
 

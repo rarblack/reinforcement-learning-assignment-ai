@@ -32,7 +32,7 @@ class Player:
         # print(respond)
         # {'code': 'OK', 'worldId': 0, 'runId': '39', 'reward': -0.1, 'scoreIncrement': -0.1, 'newState': {'x': 0, 'y': '0'}}
         # print(f"New State: {respond['newState']}")
-
+        self.__current_state.increase_numberAction(action)
         self.__current_state.setReward(respond['reward'])
         # print(f"Reward: {respond['reward']}")
         if respond['newState'] != None:

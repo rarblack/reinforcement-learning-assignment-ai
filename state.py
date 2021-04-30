@@ -10,6 +10,7 @@ class State:
         self.__reward           = 0
         self.__exploredActions  = []
         self.__actionsQValue    = {State.W: float("-inf"), State.E: float("-inf"), State.N: float("-inf"), State.S: float("-inf")}
+        self.__numberActions    = {State.W: 0, State.E: 0, State.N: 0, State.S: 0}
 
     def add_actionQValue(self, action, value):
         self.__actionsQValue[action] = value
@@ -31,6 +32,12 @@ class State:
 
     def getReward(self):
         return self.__reward
+
+    def get_numberAction(self, action):
+        return self.__numberActions[action]
+
+    def increase_numberAction(self, action):
+        self.__numberActions[action] = self.__numberActions[action] + 1
 
     def __str__(self):
         return f"State coordinates: {str(self.__x)}, {str(self.__y)}\n{self.__actionsQValue}"
