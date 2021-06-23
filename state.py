@@ -3,7 +3,7 @@ class State:
         self.__x                = x
         self.__y                = y
         self.__q_values         = {'W': 0, 'N': 0, 'E': 0, 'S': 0}
-        self.__actions          = ['W', 'N', 'E', 'S']
+        self.__actions          = {'W': 0, 'N': 0, 'E': 0, 'S': 0}
         self.__living_reward    = None
         self.__is_terminal      = False
 
@@ -17,18 +17,33 @@ class State:
 
     def get_q_value(self, action):
         return self.__q_values[action]
+    
+    def set_living_reward(self, reward):
+        self.__living_reward = reward
+
+    def get_living_reward(self):
+        return self.__living_reward
 
     def get_coordinates(self):
         return (self.__x, self.__y)
 
-    def set_living_reward(self, value):
-        self.__living_reward = value
+    def get_action_usage_count(self, action):
+        return self.__actions[action]
+
+    def increase_action_usage_count(self, action):
+        self.__actions[action] += 1
+
+    def set_q_values(self, new_q_values):
+        self.__q_values = new_q_values
 
     def get_q_values(self):
         return self.__q_values
 
     def mark_as_terminal(self):
         self.__is_terminal = True
+
+    def set_actions(self, actions):
+        self.__actions = actions
 
     def get_actions(self):
         return self.__actions

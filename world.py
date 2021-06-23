@@ -3,7 +3,7 @@ from state import State
 class World:
     def __init__(self, id, agent):
         self.__id               = id
-        self.__states           = self.__generate_state()
+        self.__states           = self.generate_states()
         self.__current_state    = None
         self.__agent            = agent
 
@@ -12,6 +12,9 @@ class World:
 
     def get_id(self):
     	return self.__id
+
+    def set_states(self, states):
+        self.__states = states
 
     def get_states(self):
         return self.__states
@@ -26,9 +29,9 @@ class World:
         return self.__agent
 
     def enter(self, connection):
-        connection.enter_to_world(self.__id, self.__agent.get_id())
+        connection.enter_to_world(self.__id, self.__agent.get_id())        
 
-    def __generate_state(self,):
+    def generate_states(self):
         states = {(str(x), str(y)): State(str(x), str(y)) for x in range(40) for y in range(40)}
 
         # for terminal states, because api return none as a new state
@@ -59,10 +62,12 @@ class World:
                     print('CURRENT STATE')
                     print(f'ACTION: {action}')
                     print(f'NEW Q VALUE: {new_q_value}')
+                    print(f'ACTIONS: {state.get_actions()}')
+                    print(f'LIVING REWARD: {reward}')
                 elif state == next_state: print('NEXT STATE')
                 else: print('STATE')
 
-                print(f'COORDINATES: {state.get_coordinates()}\nLIVING REWARD: {reward}')
+                print(f'COORDINATES: {state.get_coordinates()}')
 
                 # print 4 action q values
                 print(f"{str(round(state.get_q_value('N'), 5))}".center(25, ' '))
@@ -81,4 +86,4 @@ class World:
         """
         Here we check whether local world has connected to API world or not
         """
-        return connection.get_me_located(teamId=self.__agent.get_id())['world'] == -1
+        return connection.get_me_located(teamId=self.__agent.get_id())['world'] == '-1'
